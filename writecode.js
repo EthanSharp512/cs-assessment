@@ -12,7 +12,7 @@ function addToZero(array) {
   }
   
   //The runtime of addToZero funciton would be O(n^2)
-  
+  //Space complexity is O(1)
 
 function hasUniqueChars(word) {
     let uniqueChars = new Set([])
@@ -23,6 +23,7 @@ function hasUniqueChars(word) {
   }
   
   //The runtime for the hasUniqueChars function would be O(n)
+  //Space complexity is O(1)
 
 
 
@@ -42,6 +43,7 @@ const isPangram = (str) => {
 };
 
 //The runtime for the isPangram function would be O(n)
+//Space complexity is O(1)
 
 
 
@@ -56,3 +58,5 @@ function longestWord(arr) {
   }
 
 //The runtime of longestWord is O(n)
+//Space complexity is O(1)
+
